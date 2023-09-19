@@ -1,0 +1,969 @@
+/* start max-width 1200 */
+@media all and (max-width: 1200px){
+	/*start-about-area*/
+	.about-main-heading h2 {;
+	font-size: 3.8rem;
+	line-height: 4.8rem;
+}
+.about-sub-headeing h3 {
+	font-size: 2.6rem;
+}
+/*end-about-area*/
+/*start-expertise-area*/
+.expertise-content h2 {
+	font-size: 3.8rem;
+	line-height: 5rem;
+}
+/*end-expertise-area*/
+/*Start testimonial-area*/
+.testimonial-headings h2 {
+	font-size: 4rem;
+	line-height: 5rem;
+}
+.testi-slider-content h3 {
+	font-size: 2rem;
+	line-height: 3rem;
+}
+.author-data h3 {
+	font-size: 1.6rem;
+}
+/*End testimonial-area*/
+/*start-blog-area*/
+.blog-heading h2 {
+	font-size: 4rem;
+}
+.blogs-content h2 a {
+	font-size: 1.9rem;
+	line-height: 3rem;
+}
+
+/*end-blog-area*/
+/*start-footer-area*/
+.footer-heading h2 {
+	font-size: 4rem;
+	line-height: 5rem;
+}
+/*end-footer-area*/
+/*Start Service-phase*/
+.header-top-banner-areas .main-banner-content h1 {
+	font-size: 3.8rem;
+	line-height: 5rem;
+}
+.support-menu ul li a {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+.features-content h2 {
+	font-size: 3.1rem;
+	line-height: 4.4rem;
+}
+/*End Service-phase*/
+/*Start Company-phase*/
+.company-shap-role::after {
+	width: 26.8rem;
+}
+.story-count {
+	margin-left: 3rem;
+	padding-left: 0;
+	justify-content: center;
+}
+.member-central-content {
+	padding: 3.5rem;
+}
+/*End Company-phase*/
+/*Start Career-phase*/
+.masking-banner-heading h2 {
+	font-size: 23rem;
+}
+.care-items-gap {
+	padding: 3.5rem;
+}
+.career-item p {
+	font-size: 1.4rem;
+	line-height: 2.1rem;
+}
+/*End Career-phase*/
+/*Start Inner-Career-phase*/
+.inner-company-banner-heading h1{
+	font-size: 4rem;
+}
+/*End Inner-Career-phase*/
+/*Start Main-blog-phase*/
+.blog-banner-heading h1{
+	max-width: 52.4rem;
+}
+
+.blog-banner-heading .inner-caree-des {
+	max-width: 48.8rem;
+}
+
+.blog-banner-image {
+	max-width: 47.8rem;
+}
+.author-blog-area {
+	padding: 5rem;
+}
+.author-link h4 a {
+	font-size: 2rem;
+}
+.blog-author-link-content {
+	margin-top: 6.4rem;
+}
+.contact-location {
+	background: #666DFF;
+	padding: 8.3rem 6rem 12.7rem 6rem;
+	position: relative;
+}
+/*End Main-blog-phase*/
+.privacy-backgroud .banner-right-light {
+	display: none;
+}
+
+}
+/* end max-width 1200 */
+/* start max-width 991 */
+@media all and (max-width: 991px){
+	body{
+		overflow-x: hidden;
+	}
+	/*header-menu*/
+	.big-scrin{
+		display: none;
+	}
+	.responsive-nav{
+		display: block;
+		position: relative;
+
+	}
+.responsive-nav .menu {
+	position: fixed;
+	width: 50%;
+	right: -50%;
+	top: 0rem;
+	background: white;
+	z-index: 9999999999999;
+	transition: 1s;
+	overflow: hidden;
+	height: 100vh;
+
+	justify-content: flex-start;
+
+}
+.menu.menu-active {
+     right: 0rem;
+}
+.menu {
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.menu ul{
+	flex-direction: column;
+}
+.menu ul li a {
+	color: var(--background);
+	margin-left: 0;
+	padding: 0;
+	margin-bottom: 3rem;
+}
+.project-btn a{
+	justify-content: center;
+	margin-left: 0;
+}
+.project-btn a:hover span {
+	color: var(--background);
+}
+.project-btn a i {
+	color: var(--background);
+}
+.project-btn a:hover i {
+	color: var(--background);
+}
+/*end-header-menu*/
+/*banner-area*/
+.banner-container {
+	margin-top: 5.6rem;
+}
+.main-banner-content h1 {
+	font-size: 4rem;
+	line-height: 5rem;
+}
+.our-clients-marster h3 {
+	font-size: 1.7rem;
+}
+/*end-banner-area*/
+/*start-about-area*/
+.about-main-heading h2 {
+	font-size: 3rem;
+	line-height: 4rem;
+}
+.about-sub-headeing h3 {
+	font-size: 2.2rem;
+	line-height: 3.3rem;
+}
+.about-sub-headeing p {
+	font-size: 1.5rem;
+}
+.about-main-image img {
+	height: 25rem;
+}
+.counter-item h3 span {
+	font-size: 3rem;
+}
+/*end about-area*/
+/*start-expertise-area*/
+.expertise-content h2 {
+	font-size: 3rem;
+	line-height: 4rem;
+}
+/*end-expertise-area*/
+/*Start About-area*/
+.serive-heading h2 {
+	max-width: 63.7rem;
+	font-size: 4rem;
+	line-height: 5rem;
+}
+.service-items {
+	max-width: 41rem;
+	margin: 0 auto;
+}
+/*End About-area*/
+/*Start Process-area*/
+.process-items-area .col-lg-4:nth-child(2)::after{
+	width: 84%;
+}
+.process-items-area .col-lg-4:nth-child(5)::after, .process-items-area .col-lg-4:nth-child(3)::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 10rem;
+	width: 84%;
+	height: .2rem;
+	border: 0.2rem dashed #DADADD;
+	bottom: 0;
+	margin: auto;
+	z-index: -111;
+}
+/*End Process-area*/
+/*start-testimonial-area*/
+.testimonial-slider-area {
+	max-width: 59rem;
+	margin: 0 auto;
+	margin-top: 6rem;
+}
+.testimonial-headings h2 {
+	font-size: 3.5rem;
+	line-height: 4.5rem;
+	max-width: 40rem;
+}
+/*end-testimonial-area*/
+/*start-subscribe-area*/
+.subscribe-email input {
+	width: 100%;
+}
+.subscribe-email {
+	max-width: 48.4rem;
+	margin: 0 auto;
+	margin-top: 3.5rem;
+}
+/*end-subscribe-area*/
+/*footer-area*/
+.cyber-city {
+	margin-bottom: 5rem;
+}
+.footer-link-area {
+	margin: 0 auto;
+}
+/*end-footer-area*/
+/*Start Service-phase*/
+
+.features-area .features-items .row .col-lg-1 {
+	display: none;
+}
+.features-content h2 {
+	font-size: 2.4rem;
+	line-height: 3.4rem;
+}
+.features-content h5 {
+	font-size: 1.8rem;
+	line-height: 2.7rem;
+	margin-bottom: 1rem;
+}
+.features-area .features-items:nth-child(2n) .row .col-md-6:first-child {
+	padding-left: 3rem;
+}
+.features-area .features-items:nth-child(odd) .row .col-md-6:first-child{
+	padding-right: 2rem;
+}
+/*End Service-phase*/
+/*Start Company-phase*/
+.company-shap-role::after {
+	width: 19.8rem;
+}
+.company-banner-heading h1 {
+	font-size: 4.2rem;
+	line-height: 5.5rem;
+}
+.story-count {
+	margin-left: 0;
+	margin-top: 6.2rem;
+}
+.heading-story h2 {
+	font-size: 3rem;
+	line-height: 4.5rem;
+}
+.member-central-content {
+	padding: 3rem;
+}
+.team-member:hover .member-data h3 a {
+	font-size: 1.8rem;
+}
+/*End Company-phase*/
+/*Start Career-phase*/
+.masking-banner-heading h2 {
+	font-size: 16rem;
+	height: 12rem;
+}
+.careers-items {
+	grid-template-columns: repeat(2, 1fr);
+}
+/*End Career-phase*/
+/*Start Inner-Career-phase*/
+.job-description {
+	padding: 4rem;
+}
+.inner-company-banner-heading h1 {
+	font-size: 3rem;
+	line-height: 4rem;
+}
+.details {
+	padding-left: 6.4rem;
+	padding-right: 6.4rem;
+	padding-top: 5rem;
+}
+.input-form-control input {
+	padding: 2rem 2.5rem;
+}
+.apply-form-area textarea {
+	padding: 2rem 2.5rem;
+	min-height: 18rem;
+}
+/*End Inner-Career-phase*/
+.main-blog-content {
+	background: #fff;
+	padding: 2.6rem;
+}
+.contact-location {
+	max-width: 39rem;
+	margin: 0 auto;
+	margin-top: 9.6rem;
+
+}
+.contact-google-map iframe{
+    min-height: 30.9rem;
+}
+.privacy-backgroud {
+	padding: 8rem 8rem;
+}
+.inner-text-area h2 {
+	font-size: 2.9rem;
+	line-height: 4.5rem;
+
+}
+
+}
+
+
+/* end max-width 991 */
+/* start max-width 767 */
+@media all and (max-width: 767px){
+/*banner-area*/
+.banner-image {
+	max-width: 42.3rem;
+	margin: 0 auto;
+	margin-top: 5rem;
+}
+.our-clients-marster {
+	margin-bottom: 4rem;
+}
+/*end-banner-area*/
+/*start-about-area*/
+.about-main-heading h2 {
+	padding-bottom: 4rem;
+}
+.about-main-image {
+	overflow: hidden;
+	position: relative;
+	max-width: 30rem;
+	margin: 0 auto;	
+	margin-bottom: 3.5rem;
+
+}
+.about-read {
+	justify-content: flex-start;
+	margin-top: 4.8rem;
+}
+/*end-about-area*/
+/*start-expertise-area*/
+.expertise-items-area {
+	margin-top: 7rem;
+}
+.serive-heading h2 {
+	max-width: 63.7rem;
+	font-size: 3.5rem;
+	line-height: 4.5rem;
+}
+/*end-expertise-area*/
+/*Start-Process-area*/
+.process-items-area {
+	margin-top: 3rem;
+}
+.process-items-area .col-lg-4:nth-child(2)::after,.process-items-area .col-lg-4:nth-child(5)::after, .process-items-area .col-lg-4:nth-child(3)::after {
+	content: none;
+}
+/*End-Process-area*/
+/*start-blog-area*/
+.blog-heading h2 {
+	font-size: 3.5rem;
+}
+.blog-area .about-read {
+	margin-top: 0rem;
+}
+/*end-blog-area*/
+/*subscribe-area*/
+.subscribe-heading {
+	max-width: 42.8rem;
+}
+.subscribe-heading h2 {
+	font-size: 3rem;
+	line-height: 4.5rem;
+}
+/*end-subscribe-area*/
+/*start-footer-area*/
+.footer-logo-area {
+	justify-content: center;
+}
+.footer-media{
+	text-align: center;
+}
+.footer-media {
+	text-align: center;
+	margin-top: 3rem;
+}
+.footer-media a {
+	margin-right: 1.667rem;
+}
+.footer-heading h2 {
+	font-size: 3rem;
+	line-height: 4rem;
+}
+.contact-us-btn .about-read a {
+	margin-left: 6rem;
+}
+/*end-footer-area*/
+/*start service-phase*/
+.header-top-banner-areas .main-banner-content h1 {
+	font-size: 3.5rem;
+	line-height: 5rem;
+}
+.features-area .features-items:nth-child(even) .row .col-lg-4{
+    order: inherit;
+}
+.features-images img {
+	max-width: 40.6rem;
+	height: auto;
+	margin: 0 auto;
+}
+.features-items{
+	padding-top: 9.6rem;
+}
+.features-content {
+	margin-bottom: 4.8rem;
+}
+/*end service-phase*/
+/*Start Company-phase*/
+.company-banner-images {
+	margin-bottom: 1.5rem;
+}
+.company-banner-heading h1 {
+	font-size: 3.7rem;
+	line-height: 5rem;
+}
+/*End Company-phase*/
+/*Start Career-phase*/
+.masking-banner-heading h2 {
+	font-size: 11rem;
+	height: 8rem;
+}
+.open-position {
+	margin-top: 5.4rem;
+}
+.careers-items {
+	grid-template-columns: repeat(1, 1fr);
+}
+.care-items-gap {
+	width: 66%;
+	margin: 0 auto;
+}
+/*End Career-phase*/
+/*Start Inner-Career-phase*/
+.jobs {
+	margin-top: 3rem;
+}
+.details-tabe .nav-pills .nav-link {
+	margin: 0rem 2.75rem;
+}
+.input-form-control {
+	grid-template-columns: repeat(1, 1fr);
+}
+.apply-area h2 {
+	font-size: 3rem;
+	line-height: 4.5rem;
+}
+/*End Inner-Career-phase*/
+/*Start Main blog-phase*/
+.blog-author-link-content {
+	margin-top: 6rem;
+}
+.main-blog-items {
+	max-width: 34rem;
+	margin: 0 auto;
+}
+.blog-heading {
+	text-align: center;
+}
+.inner-animation-img {
+    right: 15.4%;
+}
+@keyframes inner {
+  from {
+    right: 15.4%;
+  }
+  to {
+   right: calc(100% - 15.4%);
+  }
+}
+.inner-text-area h2 {
+	font-size: 2.8rem;
+	line-height: 4rem;
+}
+.inner-text-area h3 {
+	font-size: 2rem;
+	line-height: 3rem;
+}
+/*End Main blog-phase*/
+.contact-google-map iframe{
+    min-height: 25rem;
+}
+.privacy-backgroud {
+	padding: 6rem 6rem;
+}
+
+}
+/* end max-width 767 */
+/* start max-width 575 */
+@media all and (max-width: 575px){
+	.container{
+		max-width: 95%;
+	}
+	/*banner-area*/
+	.banner-container {
+	margin-top: 6.6rem;
+}
+.main-banner-content h1 {
+	font-size: 3.6rem;
+	line-height: 4.6rem;
+}
+.banner-image {
+	max-width: 36.3rem;
+}
+	/*end-banner-area*/
+	/*start-about-area*/
+	.counter-area {
+	flex-wrap: wrap;
+}
+	.counter-item {
+	flex-basis: calc(100% /2);
+}
+.counter-item {
+	flex-basis: calc(100% /2);
+	margin-bottom: 4.8rem;
+}
+.about-read {
+	justify-content: flex-start;
+	margin-top: 0rem;
+}
+	/*end-about-area*/
+	/*start service-area*/
+	.serive-heading h2 {
+	font-size: 3rem;
+	line-height: 4rem;
+}
+.service-main-items {
+	margin-top: 1.8rem;
+}
+	/*end service-area*/
+	/*start-blog-area*/
+	.blogs-content h2 a {
+	padding: 0rem 0rem 0.4rem 0rem;
+}
+.blog-heading h2 {
+	font-size: 2.8rem;
+	margin: 0rem 0rem 3rem 0rem;
+}
+	/*end-blog-area*/
+	/*start-subscribe-area*/
+	.subscribe-email {
+	max-width: 38.4rem;
+	margin: inherit;
+	margin-top: 3.5rem;
+}
+.subscribe-heading {
+	margin-top: 2rem;
+}
+	/*end-subscribe-area*/
+	/*start service-phase*/
+	.header-top-banner-areas .main-banner-content h1 {
+	font-size: 3rem;
+	line-height: 4rem;
+}
+	/*end service-phase*/
+	/*Start Company-phase*/
+	.company-shap-role::after {
+	  display: none;
+}
+.company-banner-images img {
+	max-width: 32rem;
+	margin: 0 auto;
+}
+.company-banner-heading h1 {
+	font-size: 3rem;
+	line-height: 4.3rem;
+}
+.company-banner-heading-area {
+	padding: 6.6rem 0;
+}
+.story-count .counter-area {
+	max-width: 100%;
+}
+.story-count .counter-area {
+	max-width: 100%;
+	padding: 0rem 1rem 0rem 6.5rem;
+}
+.counter-item {
+	flex-basis: 14rem;
+}
+.vision-image img {
+	margin-top: 4.4rem;
+}
+	/*End Company-phase*/
+	/*Start Career-phase*/
+	.masking-banner-heading h2 {
+	font-size: 9rem;
+	height: 7rem;
+}
+.career-banner-heading .company-description p {
+	margin-bottom: 4rem;
+}
+.open-position {
+	margin-top: 3.4rem;
+}
+.care-items-gap {
+	width: 95%;
+	margin: 0 auto;
+}
+.culture-item {
+	max-width: 39rem;
+	margin: 0 auto;
+}
+	/*End Career-phase*/
+	/*Start-inner-Carrer-phase*/
+	.details-tabe .nav-pills .nav-link {
+	margin: 0rem 1.75rem;
+}
+.details {
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+.apply-area h2 {
+	font-size: 2.6rem;
+	line-height: 4.1rem;
+}
+	/*End-inner-Carrer-phase*/
+	/*Start inner-blog-area*/
+	.inner-animation-img {
+	top: 26%;
+}
+.inner-text-area h2 {
+	font-size: 2.6rem;
+	line-height: 3.8rem;
+}
+.inner-text-area h3 {
+	font-size: 1.8rem;
+	line-height: 2.7rem;
+}
+	/*End inner-blog-area*/
+	.ceo-image img {
+	width: 28rem;
+	height: 28rem;
+	margin-bottom: 3rem;
+}
+.ceo-area h1 {
+	font-size: 3rem;
+}
+.ceo-area p {
+	margin: 0 auto;
+	max-width: 43.5rem;
+	margin-bottom: 3.2rem;	
+}
+.contact-google-map iframe{
+    min-height: 20rem;
+}
+
+
+}
+/* end max-width 575 */
+/* start max-width 480 */
+@media all and (max-width: 480px){
+	/*menu*/
+	.responsive-nav .menu {
+	width: 100%;
+	right: -100%;
+}
+.menu.menu-active {
+     right: 0rem;
+}
+	/*end-menu*/
+	/*banner-area*/
+	.main-banner-content h1 {
+	font-size: 3.3rem;
+	line-height: 4.2rem;
+}
+.banner-image {
+	max-width: 27.3rem;
+}
+/*banner-area*/
+/*start-about-area*/
+.about-main-heading h2 {
+	font-size: 2.7rem;
+	line-height: 3.7rem;
+}
+.about-sub-headeing h3 {
+	font-size: 2rem;
+	line-height: 3.3rem;
+}
+/*end-about-area*/
+/*start-expertise-area*/
+.expertise-content h2 {
+	font-size: 2.8rem;
+	line-height: 3.8rem;
+}
+/*end-expertise-area*/
+/*start-service-area*/
+.serive-heading h2 {
+	font-size: 2.7rem;
+	line-height: 3.6rem;
+}
+/*end-service-area*/
+/*start-testmoninal-area*/
+.testimonial-headings h2 {
+	font-size: 2.8rem;
+	line-height: 3.8rem;
+
+}
+.testi-slider-content h3 {
+	font-size: 1.7rem;
+	line-height: 2.7rem;
+}
+.testi-slider-content {
+	padding: 2.8rem 2.8rem 2.2rem 3.8rem;
+}
+.author-content {
+	flex-direction: column;
+	align-items: flex-start;
+}
+.author-image {
+	margin-bottom: 2.4rem;
+}
+/*end-testmoninal-area*/
+/*start-blog-area*/
+.blog-area .row:nth-child(2) .col-lg-6 .row{
+	flex-direction: column;
+}
+.blog-area .row:nth-child(2) .col-lg-6 .row .col-5{
+	width: 80%;
+	margin: 0 auto;
+}
+.blog-area .row:nth-child(2) .col-lg-6 .row .col-7 {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: -1rem;
+}
+.blogs-content {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+.blog-heading h2 {
+	font-size: 2.7rem;
+	margin: 0.7rem 0rem 3rem 0rem;
+	line-height: 4rem;
+}
+/*end-blog-area*/
+/*start-subscribe-area*/
+.subscribe-heading h2 {
+	font-size: 2.5rem;
+	line-height: 3.5rem;
+}
+.subscribe-email {
+	max-width: 28.4rem;
+}
+.subscribe-email input {
+	padding: 1.2rem 2rem 1.2rem 2.9rem;
+}
+/*end-subscribe-area*/
+/*Start-footer-area*/
+.footer-link-area {
+	flex-direction: column;
+	max-width: 24rem;
+}
+.link-items-service ul li a {
+	margin-bottom: 0rem;
+}
+.link-items {
+	margin-bottom: 4rem;
+}
+.contact-found {
+	max-width: 22rem;
+}
+.footer-heading h2 {
+	font-size: 2.7rem;
+	line-height: 3.7rem;
+}
+.footer-sub-title h4 {
+	font-size: 2rem;
+}
+.contact-us-btn {
+	margin-top: 1.7rem;
+}
+.contact-us-btn .about-read a {
+	margin-left: 9.5rem;
+}
+.footer-copy-write a {
+	margin-left: 2.2rem;
+}
+/*End-footer-area*/
+/*start service-phase*/
+.header-top-banner-areas .main-banner-content h1 {
+	font-size: 2.8rem;
+	line-height: 4rem;
+}
+.support-menu ul li a {
+	font-size: 1.8rem;
+	margin-bottom: 0rem;
+}
+.features-content h2 {
+	font-size: 2.2rem;
+	line-height: 3.2rem;
+}
+.features-content h5 {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+}
+/*end service-phase*/
+/*Start Company-phase*/
+.company-banner-heading h1 {
+	font-size: 2.8rem;
+	line-height: 4rem;
+}
+.heading-story h2 {
+	font-size: 2.7rem;
+	line-height: 4rem;
+}
+.member-central-content {
+	padding: 2.8rem;
+}
+.team-member:hover .member-data h3 a {
+	font-size: 1.7rem;
+}
+/*End Company-phase*/
+/*Start Career-phase*/
+.masking-banner-heading h2 {
+	font-size: 7rem;
+	height: 5rem;
+}
+.career-banner-heading .company-description p {
+	margin-bottom: 3rem;
+}
+.care-items-gap {
+	width: 100%;
+}
+.careers-items {
+	padding: 3.8rem;
+}
+/*End Career-phase*/
+/*Start Inner-Career-phase*/
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	padding-bottom: 0.3rem;
+}
+.details-tabe .nav-pills .nav-link {
+	margin-bottom: 3rem;
+}
+/*End Inner-Career-phase*/
+/*Start Main-blog-phase*/
+.blog-author-area {
+	align-items: flex-start;
+	flex-direction: column;
+}
+.blog-author-area span {
+	display: none;
+}
+.blog-author-area p {
+	margin-left: 0rem;
+}
+.blog-author-area .blog-author-name {
+	margin-right: 0rem;
+	margin-top: 1.6rem;
+	margin-bottom: 1rem;
+}
+.author-link h4 a {
+	font-size: 1.8rem;
+}
+.inner-animation-img {
+	top: 16%;
+	right: 16.4%;
+}
+.inner-blog-vision-image {
+	margin-bottom: 6rem;
+}
+.inner-text-area h2 {
+	font-size: 2.4rem;
+	line-height: 3.6rem;
+}
+/*End Main-blog-phase*/
+.ceo-banner-area {
+	padding: 6.6rem 0;
+}
+.ceo-area p {
+	max-width: 32.5rem;
+}
+.ceo-image img {
+	width: 25rem;
+	height: 25rem;
+}
+.contact-location {
+	background: #666DFF;
+	padding: 5rem 2.5rem 5rem 2.5rem;
+	position: relative;
+	max-width: 29rem;
+	margin-top: 6.6rem;	
+
+}
+.contact-location h3 {
+	font-size: 1.6rem;
+}
+
+.contact-google-map iframe{
+    min-height: 15rem;
+}
+
+}
+/* end max-width 480 */
